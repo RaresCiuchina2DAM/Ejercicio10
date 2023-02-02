@@ -3,7 +3,7 @@ package com.example.ejercicio10
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.ejercicio10.databinding.ActivityCiudadBinding
+
 import com.example.ejercicio10.databinding.ActivityMercaderBinding
 
 class MercaderActivity : AppCompatActivity() {
