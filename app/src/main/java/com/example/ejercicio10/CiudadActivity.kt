@@ -1,8 +1,8 @@
 package com.example.ejercicio10
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.ejercicio10.databinding.ActivityCiudadBinding
 
 
@@ -11,7 +11,6 @@ class CiudadActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityCiudadBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
 
         //si pulsas el botón Entrar se continua a la actividad blanca
@@ -23,7 +22,7 @@ class CiudadActivity : AppCompatActivity() {
         }
 
 
-        binding.ContinuarCiudad.setOnClickListener{
+        binding.ContinuarCiudad.setOnClickListener {
             val intent = Intent(this, DadoActivity::class.java)
             startActivity(intent)
         }

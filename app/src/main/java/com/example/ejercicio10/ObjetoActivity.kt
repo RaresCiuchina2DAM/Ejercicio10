@@ -1,18 +1,19 @@
 package com.example.ejercicio10
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.ejercicio10.databinding.ActivityCiudadBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.example.ejercicio10.databinding.ActivityObjetoBinding
 
 class ObjetoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityObjetoBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_objeto)
+        setContentView(binding.root)
 
 
+        //si pulsas el botón Recoger se continua a la actividad blanca
+        //si pulsas el botón Continuar se vuelve a la actividad dado
 
         binding.BtnRecoger.setOnClickListener {
             val intent = Intent(this, BlancaActivity::class.java)

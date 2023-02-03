@@ -7,6 +7,7 @@
     tools:context=".ObjetoActivity">
 
 
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,12 +28,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_weight="1"
                 android:fontFamily="times"
-                android:text="Recoger"
-                android:id="@+id/BtnRecoger"
-                 />
+                android:text="RECOGER"
+                android:id="@+id/BtnRecoger"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -53,6 +53,5 @@
 
         </TableRow>
     </TableLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

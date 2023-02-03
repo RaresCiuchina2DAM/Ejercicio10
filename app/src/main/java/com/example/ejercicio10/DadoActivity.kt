@@ -1,8 +1,8 @@
 package com.example.ejercicio10
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.ejercicio10.databinding.ActivityDadoBinding
 
 class DadoActivity : AppCompatActivity() {
@@ -21,7 +21,7 @@ class DadoActivity : AppCompatActivity() {
             val tres = Intent(this, MercaderActivity::class.java)
             val cuatro = Intent(this, EnemigoActivity::class.java)
 
-              when (numero) {
+            when (numero) {
                 1 -> startActivity(uno)
                 2 -> startActivity(dos)
                 3 -> startActivity(tres)
